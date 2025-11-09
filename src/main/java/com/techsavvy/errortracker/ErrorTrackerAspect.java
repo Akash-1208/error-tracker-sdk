@@ -25,6 +25,7 @@ public class ErrorTrackerAspect {
     private final String backendUrl;
     private final String serviceName;
 
+    private static String staticBackendUrl;
     public ErrorTrackerAspect(
             WebClient.Builder webClientBuilder,
             @Value("${error.tracker.backend.url:http://localhost:8081/api/errors}") String backendUrl,
@@ -33,6 +34,12 @@ public class ErrorTrackerAspect {
         this.webClient = webClientBuilder.build();
         this.backendUrl = backendUrl;
         this.serviceName = serviceName;
+
+        ErrorTrackerAspect.staticBackendUrl = backendUrl;
+    }
+
+    public static String getBackendUrl() {
+        return staticBackendUrl;
     }
 
     @Around("@annotation(com.techsavvy.errortracker.TrackErrors)")

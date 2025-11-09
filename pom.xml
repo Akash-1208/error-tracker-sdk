@@ -9,7 +9,7 @@
         <relativePath/> </parent>
     <groupId>com.techsavvy</groupId>
     <artifactId>Track-Error</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>Track-Error</name>
     <description>Depedency for tracking errors</description>
     <url/>
