@@ -1,0 +1,18 @@
+# Build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+dependency-reduced-pom.xml
+
+# IDE
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# OS & misc
+.DS_Store
+Thumbs.db
+*.log
