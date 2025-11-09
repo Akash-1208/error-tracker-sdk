@@ -13,7 +13,7 @@ A lightweight Java SDK to capture exceptions and send them to an Error Tracker b
 
 ## 🚀 Quick Start
 
-1. **Download the JAR** from the [Releases page](https://github.com/yourname/error-tracker-sdk/releases).
+1. **Download the JAR** from the [Releases page](https://github.com/Akash-1208/error-tracker-sdk/releases).
 2. **Add to your project**:
 
 **Gradle**
